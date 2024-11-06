@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos do YouTube</h1>
+    <ul>
+        <li>
+            <h2><a href="https://www.youtube.com/watch?v=qv0RxD9ch4k" target="_blank">Título do Vídeo 1</a></h2>
+            <p>Descrição do vídeo 1. Você pode adicionar uma breve descrição aqui.</p>
+        </li>
+        <li>
+            <h2><a href="https://www.youtube.com/watch?v=biWToPgtMnY" target="_blank">Título do Vídeo 2</a></h2>
+            <p>Descrição do vídeo 2. Você pode adicionar uma breve descrição aqui.</p>
+        </li>
+    </ul>
+
+</body>
+</html>
